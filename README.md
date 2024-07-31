@@ -8,6 +8,7 @@ Note:
 I processed them offline to do this in real time you should have to chosse a neural Network or give it a lot of processing power than my current computer is able to provide.
 
 EXAMPLES OF SYNTHETIC TRAINING IMAGES:
+
 Here are some examples of automatically generated training images.
 
 ![Screenshot 2024-07-31 110929](https://github.com/user-attachments/assets/edb2135f-bd7f-4b67-bd05-da6d371140d1)
@@ -15,6 +16,7 @@ Here are some examples of automatically generated training images.
 
 
 EXAMPLES OF MASK R-CNN INFERENCE:
+
 Here you can see some examples of inference running on real images of weeds.
 
 ![Screenshot 2024-07-31 111132](https://github.com/user-attachments/assets/51f0ab11-ea31-4fe7-b748-0818cfae2628)
