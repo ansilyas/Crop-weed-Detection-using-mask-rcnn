@@ -1,14 +1,25 @@
-# cocosynth
-COCO Synth provides tools for creating synthetic COCO datasets.
+AI Weed Detector:
 
-# Complete Guide to Creating COCO Datasets
-![Complete Guide to Creating COCO Datasets Course Image](https://images.squarespace-cdn.com/content/v1/55652c24e4b0edcadf841347/1586723596485-FI1W99L5F0X6X0VP36SW/ke17ZwdGBToddI8pDm48kJFjiAAEKQOxhtR6kyGixEZZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIZG0-o4ErKRJfhIwgspvy036Ezj4M485dTMevEG-VX_E/creating-coco-datasets.png)
+![Screenshot 2024-07-31 111728](https://github.com/user-attachments/assets/67e195da-9b5a-4e3a-9fee-52ee0e3d6fc6)
 
-This code repo is a companion to a Udemy course for developers who'd like a step by step walk-through of how to create a synthetic COCO dataset from scratch. When you enroll, you'll get a full walkthrough of how all of the code in this repo works. When you finish, you'll have a COCO dataset with your own custom categories and a trained Mask R-CNN.
+Crop weed recognition using Mask R-CNN in Python involves utilizing a deep learning model for image segmentation to differentiate between crops and weeds. The Mask R-CNN model extends Faster R-CNN by adding a mask branch to predict segmentation masks for each object detected in the image. By training the model on annotated images of crops and weeds, it can accurately identify and segment these objects, helping in precise agricultural management.
 
-Learn more at [https://www.immersivelimit.com/course/creating-coco-datasets](https://www.immersivelimit.com/course/creating-coco-datasets)
+Note:
+I processed them offline to do this in real time you should have to chosse a neural Network or give it a lot of processing power than my current computer is able to provide.
 
-Follow my various social media channels listed at [immersivelimit.com/connect](http://www.immersivelimit.com/connect) for updates!
+EXAMPLES OF SYNTHETIC TRAINING IMAGES:
+Here are some examples of automatically generated training images.
 
-# Getting Started
-Check out the [Getting Started](./docs/getting-started.md) guide. It will walk you through the scripts with a sample dataset.
+![Screenshot 2024-07-31 110929](https://github.com/user-attachments/assets/edb2135f-bd7f-4b67-bd05-da6d371140d1)
+
+
+
+EXAMPLES OF MASK R-CNN INFERENCE:
+Here you can see some examples of inference running on real images of weeds.
+
+![Screenshot 2024-07-31 111132](https://github.com/user-attachments/assets/51f0ab11-ea31-4fe7-b748-0818cfae2628)
+
+You can also detect different object by creating a custom classes in your Python code.
+
+![Screenshot 2024-07-31 104353](https://github.com/user-attachments/assets/09f1a0cd-eda2-4354-aa4a-53981e92416e)
+
